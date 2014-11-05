@@ -28,8 +28,7 @@ The provided files *fluxcalculation.m* and *main.m* both have bugs and therefore
 File Name | Changes
 ---------- | -----------
 **main.m** |  The corrected code should be : `selectH=input('Please select the observation height:\ (1) 2m; (2) 15m; (3) 30m:  ');`
-
-**fluxcalculation.m** | The bug is in the function *fluxcalculation* has been fixed
+**fluxcalculation.m** | The bug in the function *fluxcalculation* has been fixed.
 
 ### Add new functionalities
 
