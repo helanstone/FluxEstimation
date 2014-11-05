@@ -24,7 +24,7 @@ end
 
 rho98=1293 * 273.15./T .* (1013.25 - 0.378*e) / 1013.25 ;     %! [g/m3]
 Fb=((9.8.*( wt+ (0.61*(Ta).*wq)./(rho98)))./(Ta));
-ZL=(3)./((-u_star.^3)./(0.4.*Fb)); %warning！ the measurement height should be modified！！！
+ZL=(selectH)./((-u_star.^3)./(0.4.*Fb)); %warning！ the measurement height should be modified！！！
 
  [RN_uw,RN_vw,RN_wt,RN_wq,RN_wc,dfw,dft,dfq]=ECcontrol(data,ZL,wwb,wt,wq,u_star,tt,qq);
 
