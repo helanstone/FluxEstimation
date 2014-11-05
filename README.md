@@ -82,13 +82,11 @@ RN_wq=abs((mean(wq5m)-wq30m)/wq30m)*100;
 RN_wc=abs((mean(wc5m)-wc30m)/wc30m)*100;
 ```
 
-File Name | New functionality
----------- | -----------
 
 
 
 ### Add additional test examples
-
+The code has been tested by 2hr 30min interval data
 
 ### Summary
 In this project, bugs in the origional provided files from Wei (2013) are fixed and several new functionality are added. 
