@@ -123,4 +123,4 @@ r:       radius that the approximated root must lie within compared to the initi
 
 ### The End
 
-**Found a :bug: bug?** Contact me through :e-mail: _hexg@princeton.edu_. :trollface:
+**Found a :bug: bug?** Contact me through :e-mail: _weizw@aori.u-tokyo.ac.jp_. :trollface:
