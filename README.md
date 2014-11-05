@@ -17,7 +17,7 @@ File Name | Purpose
 **WPL.m** | This file contains twice rotation for eddy correlation data (reference: Lee et al. 1994)
 **ttest.m** | This file contains stationarity test (reference: Lee et al. 1994)
 **ITC.m** | This file contains ITC test (reference: Kaimal and ... 1994)
-**datatoread.m** | This file read the matrix data from bat file
+**datatoread.m** | This file reads the matrix data from bat file
 **brutsaertstability**| Now this function is not used, but it is important in future (e.g. wind profile studies).
 
 
