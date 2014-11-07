@@ -1,4 +1,4 @@
-#FluxEstimation :octocat:
+﻿#FluxEstimation :octocat:
 ## Project: For eddy correlation data analysis！
 The project included **1. flux calculation** :sparkles:
                      **2. quality control** :sparkles:
@@ -92,7 +92,7 @@ RN_wc=abs((mean(wc5m)-wc30m)/wc30m)*100;
 
 
 ### Add additional test examples
-The code has been tested by 2hr 30min interval data
+The code has been tested by 2hr (30min interval) data.
 
 ### Summary
 In this project, bugs in the origional provided files from Wei (2013) are fixed and several new functionality are added. 
