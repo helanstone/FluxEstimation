@@ -111,7 +111,7 @@ The code has been tested by 2hr (30min interval) data.
 
 **Stull, Roland B.** An introduction to boundary layer meteorology. Vol. 13. Springer, 1988.
 
-**Kaimal, Jagadish Chandran, and John J. Finnigan.** Atmospheric boundary layer flows: their structure and measurement. (1994).
+**Kaimal, Jagadish Chandran, and John J. Finnigan.** Atmospheric boundary layer flows: their structure and measurement. 1994.
 
 
 ### Summary
