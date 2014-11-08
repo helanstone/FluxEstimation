@@ -13,18 +13,18 @@ File Name | Purpose
 **main.m** | This file contains a function to obtain the whole result
 **fluxcalculation.m** | This file implements the flux calculation.
 **ECcontrol.m** | This file contains quality control
-**rotaion.m** | This file contains twice rotation correction for eddy correlation data (reference: Kaimal and ... 1994)
-**WPL.m** | This file contains twice rotation for eddy correlation data (reference: Lee et al. 1994)
-**ttest.m** | This file contains stationarity test (reference: Lee et al. 1994)
-**ITC.m** | This file contains ITC test (reference: Kaimal and ... 1994)
+**rotaion.m** | This file contains twice rotation correction for eddy correlation data (reference: Kaimal and Finnigan (1994)).
+**WPL.m** | This file contains twice rotation for eddy correlation data (reference: Lee et al.(2004)).
+**ttest.m** | This file contains stationarity test (reference: Lee et al. (2004)).
+**ITC.m** | This file contains ITC test (reference: Kaimal and Finnigan (1994)).
 **datatoread.m** | This file reads the matrix data from bat file
 **brutsaertstability**| Now this function is not used, but it is important in future (e.g. wind profile studies).
-
+**ECbook2013.pdf**| Book provided by LI-COR
 ## Filefolder :fortran:
 
 File Name | Purpose
 ---------- | -----------
-**stationaritytest.f** | This file contains stationarity test (reference: Lee et al. 1994)
+**stationaritytest.f** | This file contains stationarity test (reference: Lee et al. 2004)
 **fluxcalculation.f** | This file implements the flux calculation.
 
 
@@ -36,6 +36,7 @@ File Name | Changes
 ---------- | -----------
 **main.m** |  The corrected code should be : `selectH=input('Please select the observation height:\ (1) 2m; (2) 15m; (3) 30m:  ');`
 **fluxcalculation.m** | The bug in the function *fluxcalculation* has been fixed.
+**README.md** | The misdescribe in readme.md has been corrected.
 
 ### Add new functionalities
 
@@ -94,6 +95,25 @@ RN_wc=abs((mean(wc5m)-wc30m)/wc30m)*100;
 ### Add additional test examples
 The code has been tested by 2hr (30min interval) data.
 
+### Update in future
+
+1. Code comments will be added in future.
+
+2. Automatic data-input system will be established.
+
+3. Automatic plot results system will be established.
+
+4. Rotation into the planar fit coordinate will be carried out. 
+
+
+### Reference
+**Lee, Xuhui, W. J. Massman, and Beverly E. Law, eds.** Handbook of micrometeorology: a guide for surface flux measurement and analysis. Vol. 29. Springer, 2006.
+
+**Stull, Roland B.** An introduction to boundary layer meteorology. Vol. 13. Springer, 1988.
+
+**Kaimal, Jagadish Chandran, and John J. Finnigan.** Atmospheric boundary layer flows: their structure and measurement. (1994).
+
+
 ### Summary
 In this project, bugs in the origional provided files from Wei (2013) are fixed and several new functionality are added. 
 
@@ -101,6 +121,7 @@ In this project, bugs in the origional provided files from Wei (2013) are fixed 
 If you would like to use this program, one could do in the following way:
 
 import the 30min data and rename it into `data`
+
 ### The End
 
 **Found a :bug: bug?** Contact me through :e-mail: _weizw@aori.u-tokyo.ac.jp_. :trollface:
