@@ -6,11 +6,11 @@ Uy	 =	data	( :,	4	);
 Uz	 =	data	( :,	5	);
 Ts	 =	data	( :,	6	);
 diag_sonic	 =	data	( :,	7	); %unknown
-CO2	 =	data	( :,	8	)/44; %mg/m3 to mmol/m3
-H2O	 =	data	( :,	9	)*1000/18;%g/m3 to mmol/m3
+CO2	 =	data	( :,	8	)/44; %mg/m3 to mmol/m3 co2 data
+H2O	 =	data	( :,	9	)*1000/18;%g/m3 to mmol/m3 h2O data
 diag_irga	 =	data	( :,	10	); %unknown
-T	 =	data	( :,	11	); % C  
-P	 =	data	( :,	12	)*10; % hp  
+T	 =	data	( :,	11	); % C  temperature
+P	 =	data	( :,	12	)*10; % hp  pressure
 CO2_sig_strgth	 =	data	( :,	13	); %unknown
 H2O_sig_strgth	 =	data	( :,	14	); %unknown
 end
